@@ -6,11 +6,24 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
-    "cookie-parser": "~1.4.4",
-    "debug": "~2.6.9",
-    "ejs": "~2.6.1",
-    "express": "~4.16.1",
-    "http-errors": "~1.6.3",
-    "morgan": "~1.9.1"
-  }
+    "cookie-parser": "^1.4.5",
+    "debug": "^2.6.9",
+    "ejs": "^2.7.4",
+    "express": "^4.17.1",
+    "http-errors": "^1.7.3",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.4"
+  },
+  "description": "use google sheets as a json",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ithaqua974/google_sheets-to-json.git"
+  },
+  "author": "tristan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ithaqua974/google_sheets-to-json/issues"
+  },
+  "homepage": "https://github.com/ithaqua974/google_sheets-to-json#readme"
 }
